@@ -1,6 +1,9 @@
 # Goal
-To compare which states have attracted the most H1B visa holders over the past decade and how the employees' average salaries compare
+To compare which states have attracted the most H1B visa holders over the past decade and how the employees' average salaries compare. Ideally, I want to write a scalable function that can be replicated across various metrics on this website.
 Data source: [My Visa Jobs](https://www.myvisajobs.com/Reports/)
+
+### Process
+Identified how to scrape the exact table I wanted to and then wrote a function to perform the scrape for all years (2016-2021) using a list and for loop. Data from before 2016 was not available publicly at the time of doing this scrape.
 
 #### Tech stack
 1. Jupyter Notebook
